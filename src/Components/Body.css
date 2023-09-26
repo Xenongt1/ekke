@@ -1,0 +1,373 @@
+
+.image-container {
+    position:relative;
+    width: 100%; 
+    max-width: 100%; 
+    overflow: hidden; 
+}
+
+
+#first_png {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+.animated-text{
+    position:absolute;
+    top: 1%; 
+    left: 2%; 
+    width: 70%;
+   text-align: left;
+  font-size: 20px;}
+  span{
+    font-size: 90px;
+    font-weight: bold;
+    font-family: 'work-sans-semibold', sans-serif;
+    color: rgb(22,22,63);
+}
+@font-face {
+    font-family: 'Avenir LT W01 35 Light';
+    src: url('./Avenir LT W01 35 Light.woff.zip');
+    src: url('./Helvetica-Light.ttf');
+}
+#intro{
+    font-family: 'Avenir LT W01 35 Light', sans-serif;
+    font-weight: 200;
+    margin-top: 2%;
+}
+
+#button{
+    margin: 3%;
+    margin-top: 4%;
+    margin-top: 4%;
+    border-radius: 30px;
+    padding-top: 2%; 
+    padding-bottom: 2%; 
+    padding-left: 3%;
+    padding-right: 3%;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(126, 30, 215);
+    font-size: 15px;
+    cursor: pointer;
+   }
+@media (max-width: 898px) {
+      .animated-text{
+        top:0;
+        margin: auto;
+        font-size: 16px;
+    }
+    span{
+        font-size: 50px;
+        font-weight: bold;
+    }
+}
+@media (max-width: 990px) {
+    .animated-text{
+      top:0;
+      margin: auto;
+      font-size: 16px;
+  }
+  span{
+      font-size: 30px;
+      font-weight: bold;
+  }
+}
+@media (max-width: 1080px) {
+    .animated-text{
+      top:0;
+      margin: 2%;
+      font-size: 16px;
+
+  }
+  span{
+      font-size: 40px;
+      font-weight: bold;
+  }
+}
+
+@media (max-width: 380px) {
+    .animated-text{
+      top:0;
+      margin: auto;
+      font-size: 8px;
+  }
+  span{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+}
+
+
+#aboutus{
+text-align: left;
+margin-left: 10%;
+color: rgb(158, 63, 253);
+font-size: 40px;
+font-weight: 400px;
+font-family: 'Avenir LT W01 35 Light', sans-serif;
+}
+#aboutheader{
+font-weight: bold;
+font-size: 28px;
+text-align: justify;
+}
+video{
+    
+    margin-top: 2%;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+.image-container2 {
+    position:relative;
+    width: 100%; 
+    max-width: 100%; 
+    overflow: hidden; 
+}
+#sec_jpg {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+.grid-container {
+    opacity: 0; 
+    animation: slide-up 1.5s ease forwards;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 50px; 
+}
+.grid-container1{
+    opacity: 0; 
+    animation: slide-up 1.5s ease forwards;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 70px; 
+    margin-top: 5%;
+    margin: 15%;
+    font-family: 'Avenir LT W01 35 Light', sans-serif;
+    color: rgb(22,22,63);
+    font-size: 12px;
+    
+}
+.numbers{
+    
+    background-color: rgb(158, 63, 253);
+    padding: 10%;
+}
+.grid1{
+    margin: 5%;
+    font-weight: 200;
+    font-size: 25px;
+}
+#about{
+    text-align: justify;
+    font-family: 'Helvetica-Light.ttf',sans-serif;
+}
+.about{
+    margin: 5%;
+    
+}
+#thi_jpg{
+    margin: 5%;
+    float: right;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+
+}
+#first_footer{
+    margin: 15%;
+    background-color: rgb(30, 36, 46);
+    text-align: justify;
+    padding: 5%;
+    justify-content: center;
+    color: white;
+    font-family: 'Avenir LT W01 35 Light1475496', sans-serif;
+    
+}
+#dedication{
+    font-weight: 700;
+    margin-left: 3%;
+}
+#note{
+    font-weight: 400;
+    line-height: 22px;
+    
+}
+#gridheader{
+    margin-top: 5%;
+}
+#services{
+    color: rgb(158, 63, 253);
+    font-size: 15px;
+    font-family: 'Avenir LT W01 35 Light1475496', sans-serif;
+}
+#services1{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Avenir LT W01 35 Light1475496', sans-serif;
+}
+li{
+    margin-bottom: 1%;
+}
+#contact{
+    text-decoration: underline;
+    font-family: 'Helvetica-Light.ttf',sans-serif;
+    font-weight: 300;
+}
+.handles{
+    cursor: pointer;
+}
+#grid4{
+    font-size: 40px;
+    color: white;
+    font-family: 'Avenir LT W01 35 Light1475496', sans-serif;
+    font-weight: 700;
+    opacity: 0;
+    animation: slide-up 1.5s ease forwards;
+}
+b{
+    font-size: 20px;
+}
+.footer{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgb(250, 250, 250);
+    padding: 2%;
+    
+}
+.sub-footer{
+    display: flex;
+    justify-content: center;
+    
+}
+#last-sentence1{
+    margin-right: 4%;
+}
+#last-sentence2{
+    margin-right: 4%;
+}
+#last-sentence3{
+    margin-right: 4%;
+    text-align: justify;
+}
+.svg{
+    margin: 5%;
+    margin-bottom: 10%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    
+}
+
+.qualities{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.qualities2{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+@media (max-width: 740px) {
+    .animated-text{
+      top:0;
+      margin: auto;
+      font-size: 11px;}
+      .qualities{
+        font-size: 20px;
+        font-weight: bold;
+    
+  }
+  #button{
+    margin: 1%;
+    margin-top: 1%;
+    border-radius: 30px;
+    padding-top: 1%; 
+    padding-bottom: 1%; 
+    padding-left: 3%;
+    padding-right: 3%;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(126, 30, 215);
+    font-size: 15px;
+    cursor: pointer;
+   }
+  .qualities2{
+    font-size: 15px;
+    
+
+}
+ 
+}
+
+@media (max-width: 350px) {
+    .animated-text{
+        top:0;
+        margin: auto;
+        width: 100%;
+        font-size: 8px;}
+        #intro{
+            font-family: 'Avenir LT W01 35 Light', sans-serif;
+            font-weight: 200;
+            margin-top: 1%;
+            font-size: 8px;
+
+        }
+        
+    }
+@media (max-width: 550px) {
+    .animated-text{
+        top:0;
+        margin: auto;
+        width: 90%;
+        font-size: 9px;}
+    .qualities{
+      font-size: 15px;
+      font-weight: bold;
+  
+  }
+  .qualities2{
+    font-size: 10px;
+    
+
+}
+span{
+    font-size: 30px;
+    font-weight: bold;
+}
+}
+@media(max-width:500px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .grid-container1 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    span{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    }
+    .animated-text {
+        top: 0;
+        opacity: 0; /* Start with text hidden */
+        animation: slide-up 1.5s ease forwards; /* Use animation named 'slide-up' */
+    }
+    @keyframes slide-up {
+        0% {
+            opacity: 0;
+            transform: translateY(100%); 
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0); 
+        }
+    }
